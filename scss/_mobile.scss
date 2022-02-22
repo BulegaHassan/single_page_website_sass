@@ -1,0 +1,19 @@
+@media (max-width: 700px) {
+    .showcase {
+        height: 600px;
+        &-content {
+            flex-direction: column;
+            h1 {
+                font-size: 155%;
+            }
+        }
+        img {
+            width: 75%;
+        }
+        .btn-primary, .btn-secondary {
+            border-radius: 3px;
+            margin: 1.2px;
+            padding:1.5px 5px;
+        }
+    }
+}
